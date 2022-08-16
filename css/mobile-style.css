@@ -1,5 +1,5 @@
 
-@media only screen and (min-width:1024px){
+@media  screen and (min-width:1024px){
     .cover .content p{
         padding-right: 50vmax;
         padding-bottom: 15px;
@@ -13,9 +13,34 @@
         width: 17rem;
         height: 12rem;
     }
+
+    .cover .content h1{
+        font-size: 5em;
+    }
+    .cover .content p{
+        font-size: 15px;
+    }
 }
 
-@media only screen and (min-width : 425px){
+@media  screen and (max-width : 768){
+    .cover{
+        height: 20em;
+       background-size: cover;
+        
+    }
+    .cover .content p{
+        font-size: small;
+    }
+    .cover .content h1{
+        font-size: 10vmin;
+    }
+    .cover .content{
+        padding-top: 30px;
+
+    }
+}
+
+@media  screen and (max-width : 425px){
     .cover{
         height: 20em;
        background-size: cover;
@@ -33,7 +58,7 @@
     }
 }
 
-@media only screen and (min-width : 375px){
+@media  screen and (max-width : 375px){
     cover{
         height: 30em;
        background-size: cover;

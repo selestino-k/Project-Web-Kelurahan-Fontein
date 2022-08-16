@@ -59,15 +59,14 @@ a.navbar-brand{
     color: white;
 }
 .cover .content{
-background: rgba(61, 61, 61, 0.5);
-height: 100%;
-width: 100%;
-padding-left: 50px;
-padding-right: 1000px;
+    background: rgba(61, 61, 61, 0.5);
+    height: 100%;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 1000px;
 }
 .cover .content h1{
     font-family: "Inter";
-    font-size: 5em;
 }
 .cover .content p{
     font-family: "Inter";
