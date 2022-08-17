@@ -28,6 +28,13 @@ header .navbar-placeholder{
     overflow: visible;
 }
 
+.navbar-nav .nav-link.active {
+    font-weight: bold;
+    
+}
+.navbar-nav a:hover{
+    font-weight: bold;
+}
 header{
     background: #ffecab;
     z-index: 1000;
@@ -50,6 +57,12 @@ a.navbar-brand{
     font-family: "Cocogoose";
     padding-left: 50px;
 }
+ul .dropdown-menu a:hover{
+    background-color: #2b2e7f;
+    color : white;
+}
+
+
 
 
 /**  FOOTER Style**/
