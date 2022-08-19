@@ -41,8 +41,19 @@ header{
     padding-top: 25px;
     font-family: "Cocogoose";
     padding-left: 50px;
+    height: 20em;
 }
 
 .struktur{
     height: 10em;
+}
+
+.data2{
+    height: 20em;
+}
+.petakelurahan{
+    padding-top: 25px;
+    font-family: "Cocogoose";
+    padding-left: 50px;
+    padding-bottom: 20px;
 }

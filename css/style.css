@@ -40,6 +40,7 @@ header{
     z-index: 1000;
     position: relative;
     overflow: visible;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 ul.navbar-nav{
     font-family: "Barlow";
@@ -55,7 +56,7 @@ a.nav-link active{
 }
 a.navbar-brand{
     font-family: "Cocogoose";
-    padding-left: 50px;
+    padding-left: 25px;
 }
 ul .dropdown-menu a:hover{
     background-color: #2b2e7f;

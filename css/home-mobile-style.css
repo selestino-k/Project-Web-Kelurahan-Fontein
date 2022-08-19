@@ -22,7 +22,7 @@
     }
 }
 
-@media  screen and (max-width : 768){
+@media  screen and (max-width : 768px){
     .cover{
         height: 20em;
        background-size: cover;
