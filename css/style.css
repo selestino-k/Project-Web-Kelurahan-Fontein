@@ -42,6 +42,9 @@ header{
     overflow: visible;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+.navbar{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 ul.navbar-nav{
     font-family: "Barlow";
 }
@@ -63,6 +66,19 @@ ul .dropdown-menu a:hover{
     color : white;
 }
 
+a.navbar-brand img{
+    max-width: 100%;
+    height: auto;
+}
+
+.sticky{
+    position:fixed;
+    top:0;
+    width: 100%;
+    background: #ffecab;
+    z-index: 9999;
+    
+}
 
 
 
@@ -87,7 +103,11 @@ footer i {
     
 }
 i{
+    padding: 20px;
+}
+footer img{
     padding: 5px;
+
 }
 
 

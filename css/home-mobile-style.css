@@ -6,7 +6,7 @@
 
     }
     .cover .content{
-        padding-top: 30vmin;
+        padding-top: 40vmin;
 
     }
     .numbers .rectabgle{
@@ -24,25 +24,7 @@
 
 @media  screen and (max-width : 768px){
     .cover{
-        height: 20em;
-       background-size: cover;
-        
-    }
-    .cover .content p{
-        font-size: small;
-    }
-    .cover .content h1{
-        font-size: 10vmin;
-    }
-    .cover .content{
-        padding-top: 30px;
-
-    }
-}
-
-@media  screen and (max-width : 425px){
-    .cover{
-        height: 20em;
+        height: 25em;
        background-size: cover;
         
     }
@@ -58,8 +40,26 @@
     }
 }
 
+@media  screen and (max-width : 425px){
+    .cover{
+        height: 25em;
+       background-size: cover;
+        
+    }
+    .cover .content p{
+        font-size: small;
+    }
+    .cover .content h1{
+        font-size: 10vmin;
+    }
+    .cover .content{
+        padding-top: 40vmin;
+
+    }
+}
+
 @media  screen and (max-width : 375px){
-    cover{
+    .cover{
         height: 30em;
        background-size: cover;
         
@@ -71,11 +71,15 @@
         font-size: 2em;
     }
     .cover .content{
-        padding-top: 10vmin;
+        padding-top: 60vmin;
 
     }
     header .navbar-brand{
         font-size: medium;
+        
+    }
+    header .navbar-brand img{
+        size: 50%;
     }
     .numbers .rectangle{
         width: 11em;
