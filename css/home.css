@@ -58,23 +58,60 @@ header{
 
 /** -- STYLE KOTAK ANGKA STATS - RECTANGLE **/
 
-.numbers .rectangle{
+.rectangle1, .rectangle2, .rectangle3, .rectangle4{
     position:relative;
     z-index: 1;
-    background-color: #2b2e7f;
-    width: 17rem;
-    height: 12rem;
-    padding-top: 3.5vmin;
+    width: 20rem;
+    height: 10rem;
+    padding-top: 4vmin;
     margin: 1rem;
     color : white;
+    margin: 25px;
 
+    
+   
 }
-.numbers .rectangle h1,p{
-    padding-right: 30px;
+.numbers .rectangle1 i, .rectangle2 i, .rectangle3 i, .rectangle4 i {
+  position: absolute;
+  padding-right: 100px;
+}
+.rectangle1{
+    background-color: rgb(23, 111, 199);
+    overflow: hidden;
+    position: relative;
     
 }
-.numbers .rectangle h1{
+.rectangle1 .icons ,.rectangle2 .icons, .rectangle3 .icons, .rectangle4 .icons {
+    opacity: 0.5;
+    position: absolute;
+    left: 0;
+    top: 45px;
+    width: 45%;
+    height: auto;
+}
+.rectangle2{
+    background-color: olivedrab;
+    overflow: hidden;
+    position: relative;
+}
+.rectangle3{
+    background-color: rgb(198, 96, 13);
+    overflow: hidden;
+    position: relative;
+}
+.rectangle4{
+    background-color: darkred;
+    overflow: hidden;
+    position: relative;
+}
+.numbers .rectangle1 p, .rectangle2 p, .rectangle3 p, .rectangle4 p {
+    padding-right: 20px;
+    font-size: 18px;
+    
+}
+.numbers .rectangle1 h1 , .rectangle2 h1, .rectangle3 h1, .rectangle4 h1{
     font-size: 4rem;
+    padding-right: 18px;
 }
 
 /** STYLE PUBLIKASI - YG MMUAT DOK. **/
