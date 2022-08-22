@@ -15,13 +15,35 @@ header,section{
     font-family: "COCOGOOSE", sans-serif;
     font-family: "Barlow";
 
-
+    
 
     --navbarcolor: #ffecab;
     --footercolor : #2b2e7f;
 
-}
+    --background-color: white;
+    --textcolor: black;
+    --bordercolor : rgb(80, 80, 80);
 
+
+}
+.darkmode{
+    --background-color : rgb(54, 53, 53);
+    --textcolor: white;
+    --bordercolor : rgb(175, 175, 175);
+    --navbarcolor :  rgb(46, 46, 46);
+    --footercolor :  rgb(46, 46, 46);
+}
+body{
+    background-color: var(--background-color);
+    color : var(--textcolor);
+}
+.cards .card{
+    background-color: var(--background-color);
+    border-color: var(--bordercolor);
+}
+.caripublikasi #search{
+    background-color: var(--background-color);
+}
 /** HEADER Style**/
 
 header .navbar-placeholder{
@@ -32,15 +54,19 @@ header .navbar-placeholder{
     font-weight: bold;
     
 }
+.navbar-nav .nav-link{
+    color: var(--textcolor);
+}
 .navbar-nav a:hover{
     font-weight: bold;
 }
 header{
-    background: #ffecab;
+   
     z-index: 1000;
     position: relative;
     overflow: visible;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
 }
 .navbar{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -54,12 +80,27 @@ li.nav-item:last-child{
 li.nav-item{
     padding: 0.5em;
 }
+ul img{
+  position: relative;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  vertical-align: top;
+  top: 2px;
+}
 a.nav-link active{
     font-family: "Barlow-Bold";
 }
 a.navbar-brand{
     font-family: "Cocogoose";
     padding-left: 25px;
+}
+ul.dropdown-menu{
+    background-color: var(--background-color);
+    
+}
+ul.dropdown-menu a{
+    color: var(--textcolor);
 }
 ul .dropdown-menu a:hover{
     background-color: #2b2e7f;
@@ -75,8 +116,9 @@ a.navbar-brand img{
     position:fixed;
     top:0;
     width: 100%;
-    background: #ffecab;
-    z-index: 9999;
+    background: var(--navbarcolor);
+    z-index : 9999;
+    color: var(--textcolor);
     
 }
 
@@ -85,7 +127,7 @@ a.navbar-brand img{
 /**  FOOTER Style**/
 
 footer{
-    background: #2b2e7f;
+    background: var(--footercolor);
     color : white;
     overflow-x: hidden;
     padding: 8vmin 8vmin;
