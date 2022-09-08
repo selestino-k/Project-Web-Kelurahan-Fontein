@@ -15,11 +15,11 @@ header,section{
     font-family: "COCOGOOSE", sans-serif;
     font-family: "Barlow";
 
-    
+    -webkit-transition: 1s;
+            transition: 1s;
 
     --navbarcolor: #ffecab;
     --footercolor : #2b2e7f;
-
     --background-color: white;
     --textcolor: black;
     --bordercolor : rgb(80, 80, 80);
@@ -28,6 +28,8 @@ header,section{
 
 }
 .darkmode{
+    -webkit-transition: 1s;
+            transition: 1s;
     --background-color : rgb(54, 53, 53);
     --textcolor: white;
     --bordercolor : rgb(175, 175, 175);
@@ -137,11 +139,17 @@ a.navbar-brand img{
     
 }
 
+ main{
+    height:100%;
+    overflow: hidden;
+ }
+
 
 
 /**  FOOTER Style**/
 
 footer{
+    
     background: var(--footercolor);
     color : white;
     overflow-x: hidden;
