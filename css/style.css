@@ -142,6 +142,7 @@ a.navbar-brand img{
  main{
     height:100%;
     overflow: hidden;
+    margin-bottom: 30px;
  }
 
 
@@ -154,7 +155,9 @@ footer{
     color : white;
     overflow-x: hidden;
     padding: 8vmin 8vmin;
-    padding-top: 2em;;
+    padding-top: 2em;
+
+    
 }
 footer p{
     padding-left: 8px;

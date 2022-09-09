@@ -31,7 +31,15 @@ header{
 
     width: 100%;
     height: 65vmin;
-    background : url(/assets/IMG_20220809_100929.jpg);
+    background : url(/assets/Kantor\ Lurah\ Fontein.jpg);
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+.coverstruktur{
+    width: 100%;
+    height: 65vmin;
+    background : url(/assets/IMG-20220831-WA0036\ crop.jpg);
     background-size: cover;
     position: relative;
     color: white;
@@ -39,9 +47,9 @@ header{
 
 .profilkelurahan   {
     padding-top: 25px;
-    
     padding-left: 50px;
-    height:70vmax;
+    height:100%;
+    overflow:hidden;
     
 }
 .teksprofil{
@@ -56,7 +64,22 @@ h5{
     padding-left: 20vmin;
     padding-right: 20vmin;
 }
-
+.fasilitas,.wisata{
+    padding-left: 20vmin;
+    padding-right: 20vmin;
+}
+#carouselExampleCaptions .carousel-item img{
+    object-fit: cover;
+    object-position: center;
+    height: 100vh;
+    overflow: hidden;
+}
+#carouselExampleCaptions2 .carousel-item img{
+    object-fit: cover;
+    object-position: center;
+    height: 100vh;
+    overflow: hidden;
+}
 
 .struktur{
     height: 10em;
