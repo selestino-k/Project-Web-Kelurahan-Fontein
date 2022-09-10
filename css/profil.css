@@ -71,15 +71,33 @@ h5{
 #carouselExampleCaptions .carousel-item img{
     object-fit: cover;
     object-position: center;
-    height: 100vh;
+    height: 70vh;
+    width: 2vw;
     overflow: hidden;
+    
 }
 #carouselExampleCaptions2 .carousel-item img{
     object-fit: cover;
     object-position: center;
-    height: 100vh;
+    height: 70vh;
     overflow: hidden;
 }
+#carouselExampleCaptions, #carouselExampleCaptions2{
+    width: 65vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+#carouselExampleCaptions .carousel-caption{
+    color: white;
+    background-color: rgba(22, 22, 22, 0.553);
+    border-radius: 5px;
+}
+#carouselExampleCaptions2 .carousel-caption{
+    color: white;
+    background-color: rgba(22, 22, 22, 0.553);
+    border-radius: 5px;
+}
+
 
 .struktur{
     height: 10em;
